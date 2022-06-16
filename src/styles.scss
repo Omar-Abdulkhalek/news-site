@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss';
+
+@import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss';
+@import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss';
+
+
+
+
+@font-face {
+    font-family: "alarabiya";
+    src: url("assets/fonts/alarabiyaBoutros2020-Bold.woff2") ;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "alarabiya";
+    src: url("assets/fonts/alarabiyaBoutros2020-ExtraBold.woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "alarabiya";
+    src: url("assets/fonts/alarabiyaBoutros2020-Light.woff2") ;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "alarabiya";
+    src: url("assets/fonts/alarabiyaBoutros2020-Regular.woff2") ;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+
+ 
+
+img{
+    object-fit: cover;
+}
+
+body{
+  direction: rtl;
+}

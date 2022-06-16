@@ -1,0 +1,61 @@
+
+<header>
+    <div class="container ">
+        <div class="mainHeader  ">
+            <div class="logo">
+                <a href=""><img class="w-100" src="assets/images/logo.PNG" alt=""></a>
+            </div>
+            <div class="icons-lang">
+                <i class='bx bx-search me-5 search-icon'></i>
+                <!-- (changed)="checked=$event" -->
+                <toggle-button class="me-5" style="position:relative"></toggle-button>
+
+                <div class="d-inline-block text-center dd_position_relative me-5 ">
+                    <select class="form-control fh5co_text_select_option  drplang" >
+
+                        <option>English </option>
+                        <option>French </option>
+                        <option>German </option>
+                        <option>Spanish </option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light brd  mb-4"> 
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" routerLinkActive=" line" aria-current="page" routerLink="/home">الرئيسية</a>
+                    </li>
+
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" routerLinkActive=" line" routerLink="/news">News</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" routerLinkActive=" line" routerLink="/business">Business</a>
+                    </li>
+
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" routerLinkActive=" line" routerLink="/energy">Energy</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" routerLinkActive=" line" routerLink="/opinion">Opinion</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

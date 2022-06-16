@@ -1,0 +1,58 @@
+h4.main-title{
+    display: flex;
+    margin-bottom: 30px;
+}
+h4.main-title span.shape{
+    background: linear-gradient(to bottom, #ce3e41 35%, #e08285 0%);
+    width: 15px ;
+    height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    
+    
+}
+
+h4.main-title a{
+    text-decoration: none;
+    color:black;
+    font: 400 1.8rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+h4.main-title a i {
+    font-size: 30px;
+}
+
+
+
+.img-textCont
+{
+    background-color:#C61C20;
+}
+
+
+.img-textCont a{
+    color:#fff;
+    text-decoration: none;
+    
+    font: 400 1.7rem/2rem alarabiya, "Helvetica Neue", sans-serif
+}
+
+.line{
+    background-color: rgb(197, 173, 173);
+    height: 1px;
+    width: 90%;
+}
+
+.link{
+    width: 10%;
+}
+
+.link a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.link a i {
+    font-size: 18px;
+}

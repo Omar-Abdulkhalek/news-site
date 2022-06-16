@@ -1,0 +1,49 @@
+h4.main-title{
+    display: flex;
+    margin-bottom: 30px;
+}
+h4.main-title span.shape{
+    background: linear-gradient(to bottom, #5d8d9d 35%, #97b6c0 0%);
+    width: 15px ;
+    height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    
+    
+}
+
+h4.main-title a{
+    text-decoration: none;
+    color:black;
+    font: 400 1.8rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+h4.main-title a i {
+    font-size: 30px;
+}
+
+
+
+
+.cont{
+    background-color: #CFDDE2;
+    padding:13px;
+}
+
+.cont a {
+    text-decoration: none;
+    color:#151515;
+    font: 400 1.65rem/2rem alarabiya, "Helvetica Neue", sans-serif;
+    
+
+}
+
+.cont img{
+    border:2px solid #fff ;
+    border-radius: 50%;
+}
+
+.cont h4{
+    color:#41798C;
+    font: 500 1.2rem/1rem alarabiya, "Helvetica Neue";
+}

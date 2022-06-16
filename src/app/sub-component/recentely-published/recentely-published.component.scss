@@ -1,0 +1,72 @@
+h4.main-title{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+h4.main-title span.shape{
+    background: linear-gradient(to bottom, #4b5162 35%, #8b8f9a 0%);
+    width: 15px ;
+    height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    
+    
+}
+
+h4.main-title a{
+    text-decoration: none;
+    color:black;
+    font: 400 1.8rem alarabiya, "Helvetica Neue", sans-serif;
+    
+}
+
+h4.main-title a i {
+    font-size: 30px;
+}
+
+
+
+
+
+.recently a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.recently a h4{
+    font: 500 1.5rem/2.4rem alarabiya, "Helvetica Neue", sans-serif;
+    margin: 20px 0 0 0 ;
+  
+}
+
+
+
+.recently a h5
+{
+    color:#41798C;
+    
+    font: 300 1.3rem/1.4rem alarabiya, "Helvetica Neue", sans-serif;
+    
+}
+
+
+.line{
+    background-color: rgb(197, 173, 173);
+    height: 1px;
+    width: 90%;
+}
+
+.link{
+    width: 10%;
+}
+
+.link a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.link a i {
+    font-size: 18px;
+}

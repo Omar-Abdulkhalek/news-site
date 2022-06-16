@@ -1,0 +1,46 @@
+<app-home-main-show></app-home-main-show>
+<app-home-trending></app-home-trending>
+<app-home-opinion></app-home-opinion>
+
+
+<div class="container ">
+
+    <h4 class="main-title">
+        <span class="shape"></span>
+        <a href="" class="d-flex align-items-center">
+            Editor's Choice
+
+            <i class='bx bx-chevron-right'></i>
+        </a>
+    </h4>
+
+
+    <div class="main">
+        <owl-carousel-o [options]="customOptions">
+
+            <ng-container *ngFor="let image of images">
+                <ng-template carouselSlide [id]="image">
+                    <div class="carousel">
+                        <img [src]="image" class="rounded">
+                        <div class="text">
+                            <h5>
+
+                                Lebanon’s intel chief meets top US officials, CIA head for talks on hostages in Syria
+
+                            </h5>
+
+                            <p>
+                                Abbas Ibrahim also said the shadow war between Israel and Iran was taking place at a
+                                distance from Lebanon and
+                            </p>
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
+
+
+
+        </owl-carousel-o>
+    </div>
+
+</div>

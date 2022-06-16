@@ -1,0 +1,40 @@
+h4.main-title{
+    display: flex;
+    margin-bottom: 30px;
+}
+h4.main-title span.shape{
+    background: linear-gradient(to bottom, #5c7fb7 35%, #96add1 0%);
+    width: 15px ;
+    height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    
+    
+}
+
+h4.main-title span.special{
+    background: linear-gradient(to bottom, #56b984 35%, #92d2b0 0%);
+    width: 15px ;
+    height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    
+}
+
+h4.main-title a{
+    text-decoration: none;
+    color:black;
+    font: 400 1.8rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+h4.main-title a i {
+    font-size: 30px;
+}
+
+
+
+.txt a{
+    text-decoration: none;
+    color: #222;
+    font: 400 1.7rem/2rem alarabiya, "Helvetica Neue", sans-serif;
+}

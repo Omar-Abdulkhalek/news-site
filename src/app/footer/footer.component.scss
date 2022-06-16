@@ -1,0 +1,236 @@
+footer{
+	background-color: #F7F7F9;
+	margin-top: 60px;
+	padding: 20px 0 0 0 ;
+	overflow: hidden;
+	
+}
+
+
+footer .toTopButton{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font: 500 1.2rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+	
+	
+}
+
+footer .toTopButton i{
+	margin-left: 5px;
+}
+
+.cont{
+	text-align: right;
+}
+
+
+.logo-line {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-line .image{
+	position: relative;
+	
+}
+
+
+
+.logo-line .image::before{
+	content: "";
+    position: absolute;
+    width: 511px;
+    height: 1px;
+    background-color: #c2c2c2;
+    left: -524px;
+    top: 50px;
+}
+
+
+.logo-line .image::after{
+	content: "";
+    position: absolute;
+    width: 545px;
+    height: 1px;
+    background-color: #c2c2c2;
+    left: 193px;
+    top: 50px;
+
+}
+
+.links{
+	display: flex;
+
+}
+
+.links ul {
+	list-style: none;
+	margin-right: 20px;
+}
+
+
+.links ul li a {
+	cursor: pointer;
+	
+}
+
+.links ul.child-cont{
+	padding:0;
+	margin-top: 35px;
+
+
+}
+
+.links ul.child-cont li{
+	margin-top:15px ;
+}
+
+
+.links ul li a.main{
+	font: 500 1.4rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+	text-decoration: none;
+	color:black
+}
+
+.links ul.child-cont li a{
+	font: 300 1.2rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+div.input-icon h5{
+	font: 500 1.4rem/1.5rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+div.input-icon {
+	margin-left: 30px;
+	margin-top: 30px;
+	
+}
+
+
+div.input-icon div div.input{
+	width:30%;
+	
+}
+
+div.input-icon div div.icons{
+	width:70%;
+}
+
+
+div.input-icon .inpt{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: none;
+	padding: 0.8rem;
+    border-style: solid;
+    border-width: 1px;
+    margin:0px;
+	
+	font: 500 1.2rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+button{
+	background-color: black;
+	color:#fff;
+	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+	padding: 0.8rem;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    cursor: pointer;
+	font: 500 1.3rem/1.2rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+
+
+.icons{
+	display: flex;
+	justify-content: flex-end;
+	align-items:center ;
+
+}
+
+.icons .icon-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color:#fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.icons .f-book{
+	background-color: #1877F2;
+}
+
+.icons .twitter{
+	background-color: #1DA1F2;
+	margin: 0 20px ;
+
+}
+
+.icons .instgram{
+	background-image: linear-gradient(to right top, #ff8600, #f46e07, #e8560f, #db3c15, #cc1919);
+	margin: 0 20px 0 0 ;
+
+}
+
+.icons .youtube{
+	background-color:#FF0000 ;
+	margin: 0 20px 0 0 ;
+}
+
+
+.icons .linkedin{
+	background-color:#2767B2 ;
+}
+
+
+div.footer-end{
+	margin: 30px 0 0px 30px;
+	border-top:1px solid #e5e5e5;; 
+	padding: 20px 0 0 0;
+	
+	display: flex;
+	justify-content:center ;
+	align-items: center;
+
+}
+
+div.footer-end ul{
+	list-style: none;
+	display: flex;
+
+}
+
+div.footer-end ul li {
+	cursor:pointer ;
+	padding:0 25px;
+	border-right: 1px solid #e5e5e5;
+	
+}
+
+div.footer-end ul li a {
+	
+	font: 300 1.22rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+}
+
+div.footer-end ul li.no-brdr{
+	border-right: none;
+}
+
+
+ div.copy-rights{
+	
+	padding: 30px 0;
+}
+
+div.copy-rights p{
+	font: 300 1.22rem/1rem alarabiya, "Helvetica Neue", sans-serif;
+
+}

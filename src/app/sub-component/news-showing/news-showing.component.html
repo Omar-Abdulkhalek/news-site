@@ -1,0 +1,229 @@
+<div class="container">
+    <div class="share-font  ">
+        <div class="share"><i class='bx bx-share-alt'></i> <span>Share</span></div>
+        <div class="font"><i class='bx bx-font parent'><i class='bx bx-font child'></i></i> <span>Font</span></div>
+    </div>
+
+    <div class="row mt-5">
+
+        <div class="col-md-5  g-0">
+            <div class="main">
+                <div class="title rounded">
+                    <span class="rounded-start">
+
+                    </span>
+                    <a class="conflict">
+                        Russia Ukraine conflict
+                    </a>
+                </div>
+
+            </div>
+            <div class="header ">
+                <h1>
+                    {{postDetails.title.rendered}}
+                </h1>
+
+                <!-- <div class="location-follow">
+                    <div class="location">
+                        <i class='bx bxs-location-plus'></i>
+                        <span>Ukraine</span>
+                    </div>
+
+                    <div class="follow">
+                        <i class='bx bx-plus'></i> <span>Follow</span>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+
+        <div class="col-md-7 ">
+            <div class="img-cont">
+                <img class="w-75 rounded" [src]="postDetails.yoast_head_json.og_image[0].url" alt="">
+            </div>
+            <div>
+                <!-- <p class="pragraph">
+                    Ukrainian President Volodymyr Zelenskyy attends a joint statement with European Commission President
+                    Ursula, as Russia's invasion of Ukraine continues, in Kyiv, Ukraine, on June 11, 2022. (Reuters)
+                </p> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-5 brdr g-0">
+        <div class="col-md-6 ">
+            <div class="press">
+                <h4>{{postDetails.yoast_head_json.og_site_name}}</h4>
+                <h4>كُتب بواسطة : {{postDetails.yoast_head_json.schema['@graph'][6].name}}</h4>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-end second ">
+            <div class="date">
+                <p>ٌنشر في : {{postDetails.date}}
+                    <br>
+                    أخر تحديث : {{postDetails.modified}}
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1  ">
+            <div class="side-nav">
+                <div class="facebook icons">
+                    <a href="">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </div>
+
+                <div class="twitter icons">
+                    <a href="">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+
+                <div class="telegram icons">
+                    <a href="">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                </div>
+
+                <div class="whatsapp icons">
+                    <a href="">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>
+
+                <div class="link icons">
+                    <a href="">
+                        <i class='bx bx-link'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="body ">
+
+                <p>
+                    {{postDetails.excerpt.rendered}}
+                </p>
+                <!-- <p>
+                    Ukrainian President Volodymyr Zelenskyy said no one knows how long the war in his country will last
+                    but that Ukrainian forces are defying expectations by preventing Russian troops from overrunning
+                    eastern Ukraine, where the fighting has been fiercest for weeks.
+                </p>
+
+                <p>
+                    In his nightly video address, Zelenskyy said he was proud of the Ukrainian defenders managing to
+                    hold
+                    back the Russian advance in the Donbas region, which borders Russia and where Moscow-backed
+                    separatists
+                    have controlled much of the territory for eight years.
+                </p>
+                <a href="">
+                    For the latest headlines, follow our Google News channel online or via the app.
+
+                </a>
+
+                <p class="mt-4">
+                    &ldquo; Remember how in Russia, in the beginning of May, they hoped to seize all of the Donbas?” the
+                    president said late on Saturday.
+                    &rdquo;
+                </p>
+                <p>
+                    After failing to capture Kyiv, Ukraine’s capital, early in the war, Moscow focused on seizing the
+                    parts of the largely Russian-speaking Donbas still in Ukrainian hands, as well as the country’s
+                    southern coast. But instead of securing a swift, decisive takeover, Russian forces were drawn into a
+                    long, laborious battle, thanks in part to the Ukrainian military’s use of Western-supplied weapons.
+                </p>
+
+                <p>
+                    Both Ukrainian and Russian authorities<a href="" class="small"> said Sievierodonetsk, an eastern
+                        city with a prewar
+                        population of 100,000, remained contested.</a> The city and neighboring Lysychansk are the last
+                    major
+                    areas of the Donbas’ Luhansk province not under the control of the pro-Russia rebels.
+                </p>
+
+                <p>
+                    Leonid Pasechnik, the head of the separatist-declared Luhansk People’s Republic, said Ukrainian
+                    fighters remained in an industrial area of the city, including a chemical plant where civilians had
+                    taken shelter from days of Russian shelling.
+                </p>
+
+                <p>
+                    “Sievierodonetsk is not completely 100 percent liberated,” Pasechnik said on Saturday, alleging that
+                    the Ukrainians were shelling the city from the Azot plant. “So it’s impossible to call the situation
+                    calm in Sievierodonetsk, that it is completely ours.”
+                </p>
+
+                <p>
+                    Luhansk Governor Serhii Haidai reported on Saturday that a big fire broke out at the plant during
+                    hours of Russian shelling.
+                </p>
+
+                <p>
+
+                    Elsewhere in Ukraine, a counteroffensive pushed Russians out of parts of the southern Kherson region
+                    they took early in the war, according to Zelenskyy. Moscow has installed local authorities in
+                    Kherson and other occupied coastal areas,<a href="" class="small"> offering residents Russian
+                        passports</a>, airing Russian news
+                    broadcasts and taking steps to introduce a Russian school curriculum.
+                </p>
+
+                <p>
+                    Zelenskyy said that while an end to the war was not in sight, Ukraine should do everything it can so
+                    the Russians “regret everything that they have done and that they answer for every killing and every
+                    strike on our beautiful state.”
+                </p>
+
+                <p>
+                    The Ukrainian leader asserted that Russia has suffered about three times as many military casualties
+                    as the number estimated for the Ukrainian side, adding: “For what? What did it get you, Russia?”
+                    There are no reliable independent estimates of the war’s death toll so far.
+                </p>
+
+                <p>
+                    The Institute for the Study of War, a think tank based in Washington, said in its latest assessment
+                    that Ukrainian intelligence suggested the Russian military was planning “to fight a longer war.”
+                </p>
+
+                <p>
+                    The institute cited the deputy head of Ukraine’s national security agency as saying that Moscow had
+                    extended its war timeline until October, with adjustments to be made depending on any successes in
+                    the Donbas.
+                </p>
+
+                <p>
+                    The intelligence “likely indicates the Kremlin has, at a minimum, acknowledged it cannot achieve its
+                    objectives in Ukraine quickly and is further adjusting its military objectives in an attempt to
+                    correct the initial deficiencies in the invasion of Ukraine,” the think tank said.
+                </p> -->
+
+                <h5>
+                    Read more:
+                </h5>
+
+                <div class="mt-3">
+                    <a href="">
+                        Ukraine in control of Sievierodonetsk plant sheltering hundreds, governor says
+                    </a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="">
+                        Russian strike on western Ukraine wounds at least 22
+                    </a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="">
+                        First Russian passports handed out to Ukrainians in occupied south: Agencies
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

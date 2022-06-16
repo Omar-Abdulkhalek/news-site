@@ -1,0 +1,244 @@
+
+
+
+.share-font{
+    display: flex;
+    justify-content: end;
+}
+
+
+.share-font .share ,.share-font .font{
+    background-color: #F7F7F9;
+    padding: 12px ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.share-font .share{
+    margin-right: 10px;
+}
+.share-font .share i{
+    margin-right:10px ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.share-font .share span , .share-font .font span{
+    
+   
+    font-weight: 600;
+}
+
+
+.share-font .font .parent{
+    
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    margin-right: 14px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+}
+
+.share-font .font .parent .child{
+    
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left:13px;
+
+}
+
+.row .col-md-7 div>p{
+    font-size: 14px;
+    color:#877b7b;
+    margin: 20px 0px;
+
+}
+
+.row .col-md-5 .main{
+    display: flex;
+}
+
+.row .col-md-5 .main .title{
+    background-color: #E5E5E5;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row .col-md-5 .main .title span{
+    width: 7px;
+    height: 29px;
+    background: linear-gradient(180deg, #8B8F9A 63%, #6e6b6b 37%);
+    display: inline-block;
+    border-bottom-right-radius: 0.25rem!important;
+    border-top-right-radius: 0.25rem!important;
+    border-bottom-left-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+
+.row .col-md-5 .main .title a {
+    text-decoration: none;
+    margin: 2px 4px;
+    color:black
+}
+
+.row .col-md-5 .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between ;
+    height: 100%;
+}
+
+.row .col-md-5 .header h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.row .col-md-5 .header .location-follow .location {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.row .col-md-5 .header .location-follow .location span{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.row .col-md-5 .header .location-follow .location i {
+    font-size: 18px;
+}
+
+.row .col-md-5 .header .location-follow .follow {
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F9;
+    padding: 12px ;
+    border-radius: 30px;
+    
+    
+}
+
+.row .col-md-5 .header .location-follow .follow i{
+    margin-right:10px ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.row .col-md-5 .header .location-follow .follow span
+{
+    font-weight: 600;
+}
+
+.brdr{
+    border-top: #EBEBEB 1px solid;
+    border-bottom: #EBEBEB 1px solid;
+    padding: 10px 0;
+
+}
+
+
+
+.brdr .col-md-6{
+    display: flex;
+    align-items: center;
+}
+
+.brdr .col-md-6 .press h4{
+    font-size:17px ;
+    font-weight: 700;
+}
+
+
+.brdr .col-md-6.second{
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.body,.side-nav{
+    
+    margin-top: 30px;
+}
+
+.side-nav{
+    background-color: #F7F7F9;
+    border-radius: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    position: sticky;
+    top: 200px;
+    
+    
+}
+
+.side-nav .icons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.side-nav .icons a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.side-nav .icons a i {
+    font-size: 25px;
+}
+
+.side-nav .facebook{
+    background-color: #1877F2;
+}
+
+.side-nav .twitter{
+    background-color: #1DA1F2;
+    margin-top: 30px;
+}
+
+.side-nav .telegram{
+    background-color: #26A4E2;
+    margin-top: 30px;
+}
+
+.side-nav .whatsapp{
+    background-color: #4DCB5B;
+    margin-top: 30px;
+}
+
+.side-nav .link{
+    background-color: #000;
+    margin-top: 30px;
+}
+
+.body a{
+    color:red;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.body a.small{
+    font-size: 16px
+}
+
+
+.body h5{
+    font-weight: 700;
+}

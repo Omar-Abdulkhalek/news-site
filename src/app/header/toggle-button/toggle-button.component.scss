@@ -1,0 +1,141 @@
+:host {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 50px;
+  }
+  
+  input[type="checkbox"] {
+    display: none; 
+  }
+
+ 
+  .toggle-button-switch {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 0,0);
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 100;
+    transition: left 0.3s;
+  }
+
+  .toggle-button-text {
+    overflow: hidden;
+    background-color: #E5E5E5;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 0 rgba(50, 50, 50, 0.75);
+    transition: background-color 0.3s;
+    width: 89px;
+    height: 35px;
+    position: relative;
+    // border: 1px solid black;
+    border-radius: 20px;
+  }
+
+ 
+  .toggle-button-text-on,
+  .toggle-button-text-off {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 50px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .toggle-button-text-on{
+    color:#fff;
+  }
+
+  
+ 
+  input[type="checkbox"]:checked ~ .toggle-button-switch {
+    left: 54px;
+  }
+
+
+  input[type="checkbox"]:checked ~ .toggle-button-text {
+    background-color: #2B3347;
+    box-shadow: 2px 2px 5px 0 rgba(4, 4, 4, 0.75);
+  }
+
+
+
+  .darkTheme{
+    background-color: #2B3347;
+    a{
+      color:#fff !important;
+    }
+    
+    footer{
+      background-color: #2B3347 ;
+    }
+
+    .drplang{
+      background-color: #2B3347;
+      color:#fff;
+    }
+    .search-icon{
+      color: #fff;
+    }
+    .line{
+      border-bottom: 4px solid #fff;
+    }
+    .copy-rights > p{
+      color: #fff;
+    }
+    .input-icon h5{
+      color:#fff
+    }
+
+    .main {
+      .text{
+          h5{
+          color:#fff
+          }
+          p{
+            color:#fff !important
+          }
+      }
+    } 
+
+    .main-content{
+      p{
+        color:#fff !important;
+      }
+    }
+
+    p.pragraph {
+     
+        color:#fff !important;
+      
+    }
+    a.conflict{
+      color:#000 !important;
+    }
+
+    .header{
+      h1{
+        color:#fff;
+      }
+    }
+    .location-follow{
+      .location{
+        span , i {
+          color:#fff;
+        }
+      }
+    }
+    .press h4 , .second p , .body p ,.body h5{
+      color:#fff;
+    }
+  }
+
+
